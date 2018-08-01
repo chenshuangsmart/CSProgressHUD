@@ -15,6 +15,12 @@
 		40085F1B210EEEC600639C5E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 40085F1A210EEEC600639C5E /* main.m */; };
 		40085F25210EEEC600639C5E /* CSProgressHUDTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 40085F24210EEEC600639C5E /* CSProgressHUDTests.m */; };
 		40085F30210EEEC600639C5E /* CSProgressHUDUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 40085F2F210EEEC600639C5E /* CSProgressHUDUITests.m */; };
+		40085F43210EEF2800639C5E /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 40085F3F210EEF2800639C5E /* MBProgressHUD.m */; };
+		40085F44210EEF2800639C5E /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 40085F40210EEF2800639C5E /* LICENSE */; };
+		40085F45210EEF2800639C5E /* README.mdown in Resources */ = {isa = PBXBuildFile; fileRef = 40085F42210EEF2800639C5E /* README.mdown */; };
+		40085F48210EF0A000639C5E /* CSModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 40085F47210EF0A000639C5E /* CSModel.m */; };
+		40085F4E210EF80E00639C5E /* AlertUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 40085F4D210EF80E00639C5E /* AlertUtils.m */; };
+		40085F50210F012500639C5E /* MBProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 40085F4F210F012500639C5E /* MBProgressHUD.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +57,15 @@
 		40085F2B210EEEC600639C5E /* CSProgressHUDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CSProgressHUDUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		40085F2F210EEEC600639C5E /* CSProgressHUDUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSProgressHUDUITests.m; sourceTree = "<group>"; };
 		40085F31210EEEC600639C5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40085F3F210EEF2800639C5E /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		40085F40210EEF2800639C5E /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		40085F41210EEF2800639C5E /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		40085F42210EEF2800639C5E /* README.mdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.mdown; sourceTree = "<group>"; };
+		40085F46210EF0A000639C5E /* CSModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSModel.h; sourceTree = "<group>"; };
+		40085F47210EF0A000639C5E /* CSModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSModel.m; sourceTree = "<group>"; };
+		40085F4C210EF80E00639C5E /* AlertUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlertUtils.h; sourceTree = "<group>"; };
+		40085F4D210EF80E00639C5E /* AlertUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlertUtils.m; sourceTree = "<group>"; };
+		40085F4F210F012500639C5E /* MBProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MBProgressHUD.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +96,7 @@
 		40085EFF210EEEC400639C5E = {
 			isa = PBXGroup;
 			children = (
+				40085F3D210EEEEE00639C5E /* Lib */,
 				40085F0A210EEEC400639C5E /* CSProgressHUD */,
 				40085F23210EEEC600639C5E /* CSProgressHUDTests */,
 				40085F2E210EEEC600639C5E /* CSProgressHUDUITests */,
@@ -105,11 +121,16 @@
 				40085F0C210EEEC400639C5E /* AppDelegate.m */,
 				40085F0E210EEEC400639C5E /* ViewController.h */,
 				40085F0F210EEEC400639C5E /* ViewController.m */,
+				40085F46210EF0A000639C5E /* CSModel.h */,
+				40085F47210EF0A000639C5E /* CSModel.m */,
+				40085F4C210EF80E00639C5E /* AlertUtils.h */,
+				40085F4D210EF80E00639C5E /* AlertUtils.m */,
 				40085F11210EEEC400639C5E /* Main.storyboard */,
 				40085F14210EEEC500639C5E /* Assets.xcassets */,
 				40085F16210EEEC500639C5E /* LaunchScreen.storyboard */,
 				40085F19210EEEC600639C5E /* Info.plist */,
 				40085F1A210EEEC600639C5E /* main.m */,
+				40085F4F210F012500639C5E /* MBProgressHUD.bundle */,
 			);
 			path = CSProgressHUD;
 			sourceTree = "<group>";
@@ -130,6 +151,26 @@
 				40085F31210EEEC600639C5E /* Info.plist */,
 			);
 			path = CSProgressHUDUITests;
+			sourceTree = "<group>";
+		};
+		40085F3D210EEEEE00639C5E /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				40085F3E210EEF2800639C5E /* MBProgressHUD */,
+			);
+			name = Lib;
+			path = CSProgressHUD/Lib;
+			sourceTree = "<group>";
+		};
+		40085F3E210EEF2800639C5E /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				40085F3F210EEF2800639C5E /* MBProgressHUD.m */,
+				40085F40210EEF2800639C5E /* LICENSE */,
+				40085F41210EEF2800639C5E /* MBProgressHUD.h */,
+				40085F42210EEF2800639C5E /* README.mdown */,
+			);
+			path = MBProgressHUD;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -237,7 +278,10 @@
 			files = (
 				40085F18210EEEC500639C5E /* LaunchScreen.storyboard in Resources */,
 				40085F15210EEEC500639C5E /* Assets.xcassets in Resources */,
+				40085F44210EEF2800639C5E /* LICENSE in Resources */,
 				40085F13210EEEC400639C5E /* Main.storyboard in Resources */,
+				40085F45210EEF2800639C5E /* README.mdown in Resources */,
+				40085F50210F012500639C5E /* MBProgressHUD.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,6 +309,9 @@
 				40085F10210EEEC400639C5E /* ViewController.m in Sources */,
 				40085F1B210EEEC600639C5E /* main.m in Sources */,
 				40085F0D210EEEC400639C5E /* AppDelegate.m in Sources */,
+				40085F43210EEF2800639C5E /* MBProgressHUD.m in Sources */,
+				40085F4E210EF80E00639C5E /* AlertUtils.m in Sources */,
+				40085F48210EF0A000639C5E /* CSModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
