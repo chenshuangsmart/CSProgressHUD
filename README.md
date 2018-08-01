@@ -46,3 +46,7 @@ The easy progress hud to project
 + (MBProgressHUD *)info:(NSString *)msg toView:(UIView *)toView;
 
 + (MBProgressHUD *)showTopWinMessage:(NSString *)msg duration:(int)duration;
+
+项目的演示效果
+
+
