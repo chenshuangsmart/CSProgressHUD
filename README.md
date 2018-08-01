@@ -48,5 +48,5 @@ The easy progress hud to project
 + (MBProgressHUD *)showTopWinMessage:(NSString *)msg duration:(int)duration;
 
 项目的演示效果
-![项目演示效果](https://github.com/chenshuangsmart/CSProgressHUD/blob/master/showMessage.gif)
+<div align=center><img src="https://github.com/chenshuangsmart/CSProgressHUD/blob/master/showMessage.gif"/></div>
 
